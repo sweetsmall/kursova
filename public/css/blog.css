@@ -1,0 +1,64 @@
+.content{
+	padding-top: 60px;
+	width: 70%;
+	margin:0 auto;
+}
+#blogAdd{
+	height: 300px;
+}
+.registry_field{
+	margin-top: 70px;
+}
+
+.input-form{
+	background-color: transparent;
+	width: 80%;
+	margin-right: 20px;
+	padding:3px;
+	color: white;
+	font-size: 20px;
+ 	border-radius: 5px;
+	float:right;
+	box-shadow: 0 14px 20px rgba(55,55,55,0.25), 0 10px 10px rgba(55,55,55,0.22);
+}
+.button{
+	display: flex;
+	margin: auto;
+	margin-top: 150px;
+	transition: 0.3;
+}
+li{
+	font-size: 20px;
+	border:solid 2px rgba(127, 127, 127, 0.25);
+	border-radius: 5px;
+	margin-top: 20px;
+	padding:0 0 15px 15px;
+	list-style: none;
+}
+p:first-child{
+	font-size: 25px;
+}
+p:last-child{
+	font-size: 15px;
+}
+span{
+	font-size: 13px;
+	color: blue;#FFFFFFFF
+	border-bottom: 1px solid;
+}
+.button:hover{
+	background: #ab5e2c;
+    box-shadow: 0 0 20px 9px rgb(247, 158, 86);
+    color: white;
+    transform: translateY(7px);
+}
+.input-form:focus{
+	background-color: gray;
+}
+label{
+	color:white;
+}
+
+.blogs{
+	color: white;
+}
